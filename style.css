@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #003ec5;
+    height: 150px;
+}
+
+#Título{
+    font-family: 'Bree Serif';
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+section{
+    height: 200px;
+    width: 70%;
+    margin: 70px auto;
+    border-radius: 20px;
+    border: 3px;
+    border-style: solid;
+    box-shadow: 2px 2px 8px black;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+    padding: 20px;
+    font-size: 60px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+section h2{
+    margin: 40px 0px 0px 40px;
+    font-size: 35px;
+    font-family: 'Bree Serif';
+}
+
+section p{
+    margin: 30px 30px 10px 30px;
+}
+
+section:hover{
+    background-color: rgb(245, 245, 255);
+}
+
+div h1{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-top: 50px;
+    font-family: 'Bree Serif';
+    font-size: 40px;
+}
+
+#escolha{
+    background-color: #003ec5;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 70px 70px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    width: 250px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 37, 37);
+    height: auto;
+    margin-bottom: 0px;
+}
+
+div#divlogo{
+    font-family: 'Permanent Marker';
+    font-size: 60px;
+    margin-left: 6%;
+    color: white;
+}
+
+div#divcopy{
+    
+    margin: 3% 40% 30px 33%;
+    color: white;
+    font-size: smaller;
+}
+
+#enviar{
+    justify-content: center;
+    position: relative;
+    left: 70%;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#enviar:hover{
+    background-color: lightblue;
+}
